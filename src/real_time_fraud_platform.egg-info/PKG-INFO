@@ -1,0 +1,26 @@
+Metadata-Version: 2.4
+Name: real-time-fraud-platform
+Version: 1.0.0
+Summary: End-to-end real-time financial fraud detection platform
+Requires-Python: <3.13,>=3.10
+Requires-Dist: fastapi<1,>=0.110
+Requires-Dist: uvicorn[standard]<1,>=0.27
+Requires-Dist: pandas<3,>=2.1
+Requires-Dist: numpy<3,>=1.26
+Requires-Dist: scikit-learn<2,>=1.4
+Requires-Dist: xgboost<4,>=2.0
+Requires-Dist: joblib<2,>=1.3
+Requires-Dist: pyyaml<7,>=6
+Requires-Dist: pydantic<3,>=2.6
+Requires-Dist: mlflow<4,>=2.12
+Requires-Dist: kafka-python<3,>=2.0
+Requires-Dist: streamlit<2,>=1.32
+Requires-Dist: requests<3,>=2.31
+Requires-Dist: evidently<1,>=0.4.30
+Requires-Dist: feast<1,>=0.40
+Provides-Extra: graph
+Requires-Dist: torch>=2.2; extra == "graph"
+Requires-Dist: torch-geometric>=2.5; extra == "graph"
+Provides-Extra: test
+Requires-Dist: pytest>=8; extra == "test"
+Requires-Dist: httpx>=0.27; extra == "test"

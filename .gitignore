@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+env/
+*.pyc
+.env
+data/raw/*
+data/processed/*
+models/*
+mlruns/
+.streamlit/secrets.toml
